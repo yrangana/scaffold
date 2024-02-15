@@ -1,6 +1,6 @@
 install-python3.11:
 	pip install --upgrade pip &&\
-		pip install -r requirements.txt
+		pip install -r requirements-3.11.txt
 
 format:
 	black *.py
